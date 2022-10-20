@@ -34,3 +34,5 @@ app.get("/", (req, res) => {
 app.listen(config.port, () =>
   console.log("Servidor funcionando na porta " + config.port)
 );
+
+module.exports = app;
